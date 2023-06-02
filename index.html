@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>vyhladavanie a sifrovanie textu</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <h1>Vyhladavac/sifrovac</h1>
+
+      <textarea name="areaText" cols="30" rows="10" id="areaText"  placeholder="text..."></textarea>
+
+      <input type="text" name="searchWord" id="searchWord" placeholder="vyhladaj slovo alebo znak">
+
+      <button id="search" onclick="textFind()">vyhladaj</button>
+
+      <h1 id="searchResult">vysledok vyhladavania</h1>
+
+      <div id="textResult"></div>
+
+      <h1 id="encryptionTitle">sifrovanie textu</h1>
+
+      <button id="encryption" onclick="encryption()">zasifruj text</button>
+
+      <div id="encryptedText"></div>
+
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
